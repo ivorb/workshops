@@ -1,0 +1,36 @@
+# Managed by Learning Content Studio (Workshop Builder).
+# The `collections` / `just_the_docs.collections` keys are merged on every publish —
+# one entry per workshop. Editing other keys by hand is fine; they are preserved.
+title: Learning Content Studio workshops
+description: Hands-on technical workshops assembled from Microsoft Learn labs by Learning
+  Content Studio.
+theme: just-the-docs
+url: https://ivorb.github.io/workshops/
+aux_links:
+  Workshops repo:
+  - https://github.com/ivorb/workshops
+callouts_level: quiet
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+collections:
+  build_zava_s_omnichannel_ai_shopping_assistant:
+    permalink: /:collection/:path/
+    output: true
+just_the_docs:
+  collections:
+    build_zava_s_omnichannel_ai_shopping_assistant:
+      name: Build Zava's Omnichannel AI Shopping Assistant
+      nav_fold: true

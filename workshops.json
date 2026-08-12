@@ -1,0 +1,50 @@
+{
+  "workshops": [
+    {
+      "slug": "build_zava_s_omnichannel_ai_shopping_assistant",
+      "title": "Build Zava's Omnichannel AI Shopping Assistant",
+      "summary": "Plan, build, and extend a retail AI assistant with agents and vision for Zava's stores and online channels.",
+      "description": "In this workshop, you'll plan, prototype, and extend an AI shopping assistant for Zava, a retail DIY chain that serves customers in stores and online. You'll start by framing the business requirements, responsible AI considerations, and technical architecture for a real-world AI development project. Next, you'll build task-focused AI agents using Azure AI Foundry tools in the portal and VS Code to handle common retail product and support scenarios. Finally, you'll create a vision-enabled chat app that can interpret shelf and product images so store associates and shoppers can get richer help when text alone isn't enough.",
+      "scenario": "Zava, a retail DIY chain with 60 stores, is building an in-store and online AI shopping assistant that can answer product questions, read shelf photos, and hand tricky cases to a human colleague.",
+      "industry": "Retail",
+      "audience": "developers",
+      "created": "2026-08-12",
+      "path": "_build_zava_s_omnichannel_ai_shopping_assistant",
+      "first_page": "/build_zava_s_omnichannel_ai_shopping_assistant/00_introduction/",
+      "labs": [
+        {
+          "title": "Prepare for an AI development project",
+          "url": "https://github.com/MicrosoftLearning/mslearn-ai-studio/blob/main/Instructions/Exercises/01-Explore-ai-studio.md",
+          "repo": "mslearn-ai-studio"
+        },
+        {
+          "title": "Build AI agents with portal and VS Code",
+          "url": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/01-build-agent-portal-and-vscode.md",
+          "repo": "mslearn-ai-agents"
+        },
+        {
+          "title": "Develop a vision-enabled chat app",
+          "url": "https://github.com/MicrosoftLearning/mslearn-ai-vision/blob/main/Instructions/Exercises/01-gen-ai-vision.md",
+          "repo": "mslearn-ai-vision"
+        }
+      ],
+      "exercises": [
+        {
+          "number": 1,
+          "title": "Exercise 01: Frame Zava Assist",
+          "tasks": 4
+        },
+        {
+          "number": 2,
+          "title": "Exercise 02: Prototype the Store and Shopper Agents",
+          "tasks": 4
+        },
+        {
+          "number": 3,
+          "title": "Exercise 03: Add Shelf-Aware Vision Chat",
+          "tasks": 4
+        }
+      ]
+    }
+  ]
+}
