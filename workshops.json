@@ -1,6 +1,42 @@
 {
   "workshops": [
     {
+      "slug": "contoso_health_ward_insights_from_feedback_and_f",
+      "title": "Contoso Health: ward insights from feedback and forms",
+      "summary": "Build a healthcare insight pipeline that analyzes patient feedback and extracts intake data for ward-level operational visibility.",
+      "description": "In this workshop, you'll build an end-to-end healthcare insight workflow for Contoso Health using Azure AI services. You'll start by analyzing patient feedback text to identify sentiment and key themes by ward, then extend the solution by extracting structured data from scanned patient intake forms and other multimodal documents. Along the way, you'll apply a realistic hospital scenario with privacy, auditability, and operational reporting needs in mind.",
+      "scenario": "Contoso Health, a hospital group, wants to turn patient feedback and paper intake forms into ward-level insight for its clinical operations team.",
+      "industry": "healthcare",
+      "audience": "developers",
+      "created": "2026-08-12",
+      "path": "_contoso_health_ward_insights_from_feedback_and_f",
+      "first_page": "/contoso_health_ward_insights_from_feedback_and_f/00_introduction/",
+      "labs": [
+        {
+          "title": "Analyze text",
+          "url": "https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/01-analyze-text.md",
+          "repo": "mslearn-ai-language"
+        },
+        {
+          "title": "Extract information from multimodal content",
+          "url": "https://github.com/MicrosoftLearning/mslearn-ai-information-extraction/blob/main/Instructions/Exercises/01-content-understanding.md",
+          "repo": "mslearn-ai-information-extraction"
+        }
+      ],
+      "exercises": [
+        {
+          "number": 1,
+          "title": "Exercise 01: Ward Feedback Triage",
+          "tasks": 4
+        },
+        {
+          "number": 2,
+          "title": "Exercise 02: Intake Packet Structuring",
+          "tasks": 4
+        }
+      ]
+    },
+    {
       "slug": "build_zava_s_omnichannel_ai_shopping_assistant",
       "title": "Build Zava's omnichannel AI shopping assistant",
       "summary": "Plan, build, and extend a vision-enabled retail assistant for Zava using Azure AI and agents.",
@@ -42,42 +78,6 @@
         {
           "number": 3,
           "title": "Exercise 03: Add Omnichannel Shopping Agents",
-          "tasks": 4
-        }
-      ]
-    },
-    {
-      "slug": "contoso_health_ward_insights_from_feedback_and_f",
-      "title": "Contoso Health Ward Insights from Feedback and Forms",
-      "summary": "Analyze patient feedback and extract structured data from care documents to improve ward reporting at Contoso Health.",
-      "description": "Learn how to turn unstructured healthcare content into actionable ward performance insights. In this workshop, you will analyze patient feedback text to identify themes and sentiment, then extend that solution by extracting structured information from multimodal healthcare documents so Contoso Health can support clinical reporting while respecting healthcare privacy and audit requirements.",
-      "scenario": "Contoso Health, a five-hospital network, is modernising how clinicians summarise patient feedback and report on ward performance.",
-      "industry": "Healthcare",
-      "audience": "data analysts",
-      "created": "2026-08-12",
-      "path": "_contoso_health_ward_insights_from_feedback_and_f",
-      "first_page": "/contoso_health_ward_insights_from_feedback_and_f/00_introduction/",
-      "labs": [
-        {
-          "title": "Analyze text",
-          "url": "https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/01-analyze-text.md",
-          "repo": "mslearn-ai-language"
-        },
-        {
-          "title": "Extract information from multimodal content",
-          "url": "https://github.com/MicrosoftLearning/mslearn-ai-information-extraction/blob/main/Instructions/Exercises/01-content-understanding.md",
-          "repo": "mslearn-ai-information-extraction"
-        }
-      ],
-      "exercises": [
-        {
-          "number": 1,
-          "title": "Exercise 01: Triage Patient Feedback for Ward Trends",
-          "tasks": 4
-        },
-        {
-          "number": 2,
-          "title": "Exercise 02: Extract Care Document Details for Quality Reporting",
           "tasks": 4
         }
       ]
