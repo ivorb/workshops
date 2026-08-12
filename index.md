@@ -12,6 +12,12 @@ Each workshop below is a self-contained, multi-exercise lab with its own custome
 
 ## Workshops
 
+### [Contoso Health Ward Insights from Feedback and Forms]({{ site.baseurl }}/contoso_health_ward_insights_from_feedback_and_f/00_introduction/)
+
+Analyze patient feedback and extract structured healthcare data from forms to improve ward performance reporting.
+
+*2 exercises · adapted from mslearn-ai-information-extraction, mslearn-ai-language · published 2026-08-12*
+
 ### [Build Zava's Omnichannel AI Shopping Assistant]({{ site.baseurl }}/build_zava_s_omnichannel_ai_shopping_assistant/00_introduction/)
 
 Plan, build, and extend a retail AI assistant with agents and vision for Zava's stores and online channels.
