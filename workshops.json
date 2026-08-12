@@ -1,6 +1,52 @@
 {
   "workshops": [
     {
+      "slug": "build_zava_s_omnichannel_ai_shopping_assistant",
+      "title": "Build Zava's omnichannel AI shopping assistant",
+      "summary": "Plan, build, and extend a vision-enabled retail assistant for Zava using Azure AI and agents.",
+      "description": "In this workshop, you'll plan and build key foundations of an AI-powered retail assistant for Zava, a DIY home improvement chain. You'll start by defining the AI project, success criteria, and responsible AI considerations, then create a vision-enabled chat experience that can understand product and part images from customers, and finally extend the solution with AI agents in Azure AI Foundry and VS Code that can reason over retail tasks and take actions such as helping customers find products, answering shopping questions, and supporting assisted commerce scenarios.",
+      "scenario": "Zava, a retail DIY chain, is building an omnichannel AI shopping assistant that helps customers find the right products in store and online, understands photos of parts customers bring in, and can act on their behalf.",
+      "industry": "retail",
+      "audience": "developers",
+      "created": "2026-08-12",
+      "path": "_build_zava_s_omnichannel_ai_shopping_assistant",
+      "first_page": "/build_zava_s_omnichannel_ai_shopping_assistant/00_introduction/",
+      "labs": [
+        {
+          "title": "Prepare for an AI development project",
+          "url": "https://github.com/MicrosoftLearning/mslearn-ai-studio/blob/main/Instructions/Exercises/01-Explore-ai-studio.md",
+          "repo": "mslearn-ai-studio"
+        },
+        {
+          "title": "Develop a vision-enabled chat app",
+          "url": "https://github.com/MicrosoftLearning/mslearn-ai-vision/blob/main/Instructions/Exercises/01-gen-ai-vision.md",
+          "repo": "mslearn-ai-vision"
+        },
+        {
+          "title": "Build AI agents with portal and VS Code",
+          "url": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/01-build-agent-portal-and-vscode.md",
+          "repo": "mslearn-ai-agents"
+        }
+      ],
+      "exercises": [
+        {
+          "number": 1,
+          "title": "Exercise 01: Frame Zava's AI Assistant Project",
+          "tasks": 4
+        },
+        {
+          "number": 2,
+          "title": "Exercise 02: Create the Visual Product Finder Chat",
+          "tasks": 4
+        },
+        {
+          "number": 3,
+          "title": "Exercise 03: Add Omnichannel Shopping Agents",
+          "tasks": 4
+        }
+      ]
+    },
+    {
       "slug": "contoso_health_ward_insights_from_feedback_and_f",
       "title": "Contoso Health Ward Insights from Feedback and Forms",
       "summary": "Analyze patient feedback and extract structured data from care documents to improve ward reporting at Contoso Health.",
@@ -32,52 +78,6 @@
         {
           "number": 2,
           "title": "Exercise 02: Extract Care Document Details for Quality Reporting",
-          "tasks": 4
-        }
-      ]
-    },
-    {
-      "slug": "build_zava_s_omnichannel_ai_shopping_assistant",
-      "title": "Build Zava's Omnichannel AI Shopping Assistant",
-      "summary": "Build an AI retail assistant that answers product questions, understands shelf photos, and escalates complex cases to store staff.",
-      "description": "In this workshop, you'll step into the role of a developer building an AI shopping assistant for Zava, a retail DIY chain. You'll start by preparing the project foundations, success criteria, and Azure environment for a real-world AI solution. Then you'll create task-focused AI agents in Azure AI Foundry using both the portal and VS Code to handle product questions and escalation workflows. Finally, you'll extend the solution into a vision-enabled chat app that can interpret shelf and product photos, helping store associates and online shoppers get accurate answers across in-store and digital channels.",
-      "scenario": "Zava, a retail DIY chain with 60 stores, is building an in-store and online AI shopping assistant that can answer product questions, read shelf photos, and hand tricky cases to a human colleague.",
-      "industry": "Retail",
-      "audience": "developers",
-      "created": "2026-08-12",
-      "path": "_build_zava_s_omnichannel_ai_shopping_assistant",
-      "first_page": "/build_zava_s_omnichannel_ai_shopping_assistant/00_introduction/",
-      "labs": [
-        {
-          "title": "Prepare for an AI development project",
-          "url": "https://github.com/MicrosoftLearning/mslearn-ai-studio/blob/main/Instructions/Exercises/01-Explore-ai-studio.md",
-          "repo": "mslearn-ai-studio"
-        },
-        {
-          "title": "Build AI agents with portal and VS Code",
-          "url": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/01-build-agent-portal-and-vscode.md",
-          "repo": "mslearn-ai-agents"
-        },
-        {
-          "title": "Develop a vision-enabled chat app",
-          "url": "https://github.com/MicrosoftLearning/mslearn-ai-vision/blob/main/Instructions/Exercises/01-gen-ai-vision.md",
-          "repo": "mslearn-ai-vision"
-        }
-      ],
-      "exercises": [
-        {
-          "number": 1,
-          "title": "Exercise 01: Frame Zava Assist",
-          "tasks": 4
-        },
-        {
-          "number": 2,
-          "title": "Exercise 02: Create the Product Help Agents",
-          "tasks": 4
-        },
-        {
-          "number": 3,
-          "title": "Exercise 03: Launch the Shelf-Aware Chat App",
           "tasks": 4
         }
       ]

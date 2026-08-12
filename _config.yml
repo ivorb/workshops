@@ -35,7 +35,7 @@ collections:
 just_the_docs:
   collections:
     build_zava_s_omnichannel_ai_shopping_assistant:
-      name: Build Zava's Omnichannel AI Shopping Assistant
+      name: Build Zava's omnichannel AI shopping assistant
       nav_fold: true
     contoso_health_ward_insights_from_feedback_and_f:
       name: Contoso Health Ward Insights from Feedback and Forms

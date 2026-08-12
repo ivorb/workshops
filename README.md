@@ -8,8 +8,8 @@ Each workshop is a [just-the-docs](https://just-the-docs.com/) collection under 
 
 | Workshop | Exercises | Published | Path |
 |---|---|---|---|
+| [Build Zava's omnichannel AI shopping assistant](https://ivorb.github.io/workshops/build_zava_s_omnichannel_ai_shopping_assistant/00_introduction/) | 3 | 2026-08-12 | `_build_zava_s_omnichannel_ai_shopping_assistant` |
 | [Contoso Health Ward Insights from Feedback and Forms](https://ivorb.github.io/workshops/contoso_health_ward_insights_from_feedback_and_f/00_introduction/) | 2 | 2026-08-12 | `_contoso_health_ward_insights_from_feedback_and_f` |
-| [Build Zava's Omnichannel AI Shopping Assistant](https://ivorb.github.io/workshops/build_zava_s_omnichannel_ai_shopping_assistant/00_introduction/) | 3 | 2026-08-12 | `_build_zava_s_omnichannel_ai_shopping_assistant` |
 
 ## Build locally
 
