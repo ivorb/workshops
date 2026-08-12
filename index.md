@@ -16,7 +16,7 @@ Each workshop below is a self-contained, multi-exercise lab with its own custome
 
 Analyze patient feedback and extract structured healthcare data from forms to improve ward performance reporting.
 
-*2 exercises · adapted from mslearn-ai-information-extraction, mslearn-ai-language · published 2026-08-12*
+*1 exercises · adapted from mslearn-ai-information-extraction, mslearn-ai-language · published 2026-08-12*
 
 ### [Build Zava's Omnichannel AI Shopping Assistant]({{ site.baseurl }}/build_zava_s_omnichannel_ai_shopping_assistant/00_introduction/)
 
