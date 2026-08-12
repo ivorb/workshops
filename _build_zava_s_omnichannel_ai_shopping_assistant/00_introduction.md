@@ -6,32 +6,30 @@ nav_order: 1
 
 # Build Zava's Omnichannel AI Shopping Assistant
 
-In this workshop, you'll plan, prototype, and extend an AI shopping assistant for Zava, a retail DIY chain that serves customers in stores and online. You'll start by framing the business requirements, responsible AI considerations, and technical architecture for a real-world AI development project. Next, you'll build task-focused AI agents using Azure AI Foundry tools in the portal and VS Code to handle common retail product and support scenarios. Finally, you'll create a vision-enabled chat app that can interpret shelf and product images so store associates and shoppers can get richer help when text alone isn't enough.
+In this workshop, you'll step into the role of a developer building an AI shopping assistant for Zava, a retail DIY chain. You'll start by preparing the project foundations, success criteria, and Azure environment for a real-world AI solution. Then you'll create task-focused AI agents in Azure AI Foundry using both the portal and VS Code to handle product questions and escalation workflows. Finally, you'll extend the solution into a vision-enabled chat app that can interpret shelf and product photos, helping store associates and online shoppers get accurate answers across in-store and digital channels.
 
-Zava is a fictional retail DIY chain with 60 stores, a growing e-commerce business, and a broad catalog of home improvement products, tools, and seasonal items. The company wants a single AI shopping assistant that works across its website and in-store associate devices. Shoppers should be able to ask product questions, compare options, and get help choosing the right item for a project. In stores, associates should be able to use the same assistant to inspect shelf photos, identify products or gaps, and quickly escalate complex situations to a human colleague when policy, safety, or customer frustration requires it.
+Zava is a fictional retail DIY chain with 60 stores, a growing e-commerce channel, and a product catalog spanning tools, paint, electrical supplies, garden equipment, and seasonal merchandise. The company wants to launch a single AI shopping assistant that serves both online shoppers and in-store associates. Customers should be able to ask product questions, compare options, and share shelf or product photos when labels are unclear. When the assistant cannot confidently resolve a request, it must hand off the case to a human colleague with the right context. Zava's leadership sees this as a way to improve customer engagement, reduce friction in stores, and help associates spend more time on high-value conversations.
 
-As a developer on Zava's digital innovation team, you are helping turn that vision into a practical solution. The first step is to define the project foundations: business goals, user flows, data and safety considerations, and the Azure environment that will support development. With that groundwork in place, you'll create AI agents that can answer retail questions, guide shoppers through product discovery, and hand off edge cases in a controlled way. You will then enhance the experience with vision so the assistant can reason over shelf and product images submitted from the store floor or online chat.
-
-By the end of the workshop, you will have built the blueprint and core implementation for **Zava Assist**, an omnichannel retail AI assistant. The solution will include a shared Azure environment, agent-based interactions for customer and associate support, and a vision-enabled chat experience that can combine text and images to answer product and merchandising questions.
+In this workshop, you build that solution as one continuous project. First, you prepare the AI development effort by defining the business goals, core use cases, responsible AI considerations, and shared Azure foundation. Next, you build AI agents that can answer catalog and policy questions and support escalation workflows using Azure AI Foundry in both the portal and VS Code. Finally, you develop a vision-enabled chat app that can analyze shelf photos and product imagery so the assistant can answer questions grounded in what a shopper or associate is seeing. By the end, you will have assembled a practical prototype of Zava Assist, an omnichannel retail AI assistant for stores and e-commerce.
 
 ## Exercises
 
 This workshop has exercises on:
 
 * Frame Zava Assist
-* Prototype the Store and Shopper Agents
-* Add Shelf-Aware Vision Chat
+* Create the Product Help Agents
+* Launch the Shelf-Aware Chat App
 
 ## Prerequisites
 
 For running this workshop you will need:
 
 * An Azure subscription with permission to create resource groups and Azure AI resources.
-* Access to Azure AI Foundry and the ability to create and use projects.
-* Visual Studio Code installed with current extensions used for Azure and AI development.
-* Git installed and ability to clone, open, and run workshop code locally.
-* Familiarity with Python or JavaScript for application development and basic command-line usage.
-* Basic understanding of REST APIs, JSON, and secure handling of connection strings and keys.
+* Access to Azure AI Foundry and permission to create or use project resources.
+* Visual Studio Code installed with the workshop-required extensions for Azure and AI development.
+* Git installed and the ability to clone and run the provided workshop code locally.
+* Basic familiarity with Python, REST APIs, and JSON.
+* Basic understanding of Azure resource management in the Azure portal.
 
 ## Source labs
 

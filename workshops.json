@@ -1,46 +1,10 @@
 {
   "workshops": [
     {
-      "slug": "contoso_health_ward_insights_from_feedback_and_f",
-      "title": "Contoso Health Ward Insights from Feedback and Forms",
-      "summary": "Analyze patient feedback and extract structured healthcare data from forms to improve ward performance reporting.",
-      "description": "In this workshop, you'll help Contoso Health turn unstructured patient feedback and ward documents into usable operational insight. You’ll first analyze patient comments to identify sentiment, key phrases, and themes that matter to clinicians and operations leaders, then extend that solution by extracting structured information from multimodal documents such as scanned referral packets, discharge summaries, and ward reporting forms. By the end, you’ll have built a connected analytics flow that supports ward performance reporting while respecting healthcare requirements such as privacy, traceability, and careful handling of PHI.",
-      "scenario": "Contoso Health, a five-hospital network, is modernising how clinicians summarise patient feedback and report on ward performance.",
-      "industry": "Healthcare",
-      "audience": "data analysts",
-      "created": "2026-08-12",
-      "path": "_contoso_health_ward_insights_from_feedback_and_f",
-      "first_page": "/contoso_health_ward_insights_from_feedback_and_f/00_introduction/",
-      "labs": [
-        {
-          "title": "Analyze text",
-          "url": "https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/01-analyze-text.md",
-          "repo": "mslearn-ai-language"
-        },
-        {
-          "title": "Extract information from multimodal content",
-          "url": "https://github.com/MicrosoftLearning/mslearn-ai-information-extraction/blob/main/Instructions/Exercises/01-content-understanding.md",
-          "repo": "mslearn-ai-information-extraction"
-        }
-      ],
-      "exercises": [
-        {
-          "number": 1,
-          "title": "Exercise 01: Triage Patient Feedback",
-          "tasks": 4
-        },
-        {
-          "number": 2,
-          "title": "Exercise 02: Structure Ward Documents",
-          "tasks": 4
-        }
-      ]
-    },
-    {
       "slug": "build_zava_s_omnichannel_ai_shopping_assistant",
       "title": "Build Zava's Omnichannel AI Shopping Assistant",
-      "summary": "Plan, build, and extend a retail AI assistant with agents and vision for Zava's stores and online channels.",
-      "description": "In this workshop, you'll plan, prototype, and extend an AI shopping assistant for Zava, a retail DIY chain that serves customers in stores and online. You'll start by framing the business requirements, responsible AI considerations, and technical architecture for a real-world AI development project. Next, you'll build task-focused AI agents using Azure AI Foundry tools in the portal and VS Code to handle common retail product and support scenarios. Finally, you'll create a vision-enabled chat app that can interpret shelf and product images so store associates and shoppers can get richer help when text alone isn't enough.",
+      "summary": "Build an AI retail assistant that answers product questions, understands shelf photos, and escalates complex cases to store staff.",
+      "description": "In this workshop, you'll step into the role of a developer building an AI shopping assistant for Zava, a retail DIY chain. You'll start by preparing the project foundations, success criteria, and Azure environment for a real-world AI solution. Then you'll create task-focused AI agents in Azure AI Foundry using both the portal and VS Code to handle product questions and escalation workflows. Finally, you'll extend the solution into a vision-enabled chat app that can interpret shelf and product photos, helping store associates and online shoppers get accurate answers across in-store and digital channels.",
       "scenario": "Zava, a retail DIY chain with 60 stores, is building an in-store and online AI shopping assistant that can answer product questions, read shelf photos, and hand tricky cases to a human colleague.",
       "industry": "Retail",
       "audience": "developers",
@@ -72,12 +36,48 @@
         },
         {
           "number": 2,
-          "title": "Exercise 02: Prototype the Store and Shopper Agents",
+          "title": "Exercise 02: Create the Product Help Agents",
           "tasks": 4
         },
         {
           "number": 3,
-          "title": "Exercise 03: Add Shelf-Aware Vision Chat",
+          "title": "Exercise 03: Launch the Shelf-Aware Chat App",
+          "tasks": 4
+        }
+      ]
+    },
+    {
+      "slug": "contoso_health_ward_insights_from_feedback_and_f",
+      "title": "Contoso Health Ward Insights from Feedback and Forms",
+      "summary": "Analyze patient feedback and extract structured healthcare data from forms to improve ward performance reporting.",
+      "description": "In this workshop, you'll help Contoso Health turn unstructured patient feedback and ward documents into usable operational insight. You’ll first analyze patient comments to identify sentiment, key phrases, and themes that matter to clinicians and operations leaders, then extend that solution by extracting structured information from multimodal documents such as scanned referral packets, discharge summaries, and ward reporting forms. By the end, you’ll have built a connected analytics flow that supports ward performance reporting while respecting healthcare requirements such as privacy, traceability, and careful handling of PHI.",
+      "scenario": "Contoso Health, a five-hospital network, is modernising how clinicians summarise patient feedback and report on ward performance.",
+      "industry": "Healthcare",
+      "audience": "data analysts",
+      "created": "2026-08-12",
+      "path": "_contoso_health_ward_insights_from_feedback_and_f",
+      "first_page": "/contoso_health_ward_insights_from_feedback_and_f/00_introduction/",
+      "labs": [
+        {
+          "title": "Analyze text",
+          "url": "https://github.com/MicrosoftLearning/mslearn-ai-language/blob/main/Instructions/Exercises/01-analyze-text.md",
+          "repo": "mslearn-ai-language"
+        },
+        {
+          "title": "Extract information from multimodal content",
+          "url": "https://github.com/MicrosoftLearning/mslearn-ai-information-extraction/blob/main/Instructions/Exercises/01-content-understanding.md",
+          "repo": "mslearn-ai-information-extraction"
+        }
+      ],
+      "exercises": [
+        {
+          "number": 1,
+          "title": "Exercise 01: Triage Patient Feedback",
+          "tasks": 4
+        },
+        {
+          "number": 2,
+          "title": "Exercise 02: Structure Ward Documents",
           "tasks": 4
         }
       ]

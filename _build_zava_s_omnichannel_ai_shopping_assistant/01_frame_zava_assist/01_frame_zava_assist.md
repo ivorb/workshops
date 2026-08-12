@@ -15,11 +15,11 @@ has_children: true
 
 After you complete this exercise, you will be able to:
 
-* Create the shared Microsoft Foundry project for Zava Assist in the `rg-zava-workshop` resource group.
-* Deploy and test a generative AI model that you can reuse in later workshop exercises.
-* Review the project, parent resource, and endpoint details that support application development.
-* Connect Visual Studio Code to the shared Foundry project by using the AI Toolkit extension.
-* Establish the development foundation for later Zava Assist agent and app scenarios.
+* Create the shared Microsoft Foundry project foundation for Zava Assist.
+* Deploy and test a generative AI model for the workshop solution.
+* Review the resource-level and project-level endpoints that support later development work.
+* Connect the shared Foundry project to Visual Studio Code by using Foundry Toolkit.
+* Validate that the workshop environment is ready for later agent and multimodal development exercises.
 
 ## Duration
 
