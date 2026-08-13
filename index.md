@@ -12,17 +12,17 @@ Each workshop below is a self-contained, multi-exercise lab with its own custome
 
 ## Workshops
 
-### [Contoso Health: ward insights from feedback and forms]({{ site.baseurl }}/contoso_health_ward_insights_from_feedback_and_f/00_introduction/)
-
-Build a healthcare insight pipeline that analyzes patient feedback and extracts intake data for ward-level operational visibility.
-
-*2 exercises · adapted from mslearn-ai-information-extraction, mslearn-ai-language · published 2026-08-12*
-
 ### [Build Zava's omnichannel AI shopping assistant]({{ site.baseurl }}/build_zava_s_omnichannel_ai_shopping_assistant/00_introduction/)
 
 Plan, build, and extend a vision-enabled retail assistant for Zava using Azure AI and agents.
 
 *3 exercises · adapted from mslearn-ai-agents, mslearn-ai-studio, mslearn-ai-vision · published 2026-08-12*
+
+### [Contoso Health: ward insights from feedback and forms]({{ site.baseurl }}/contoso_health_ward_insights_from_feedback_and_f/00_introduction/)
+
+Build a healthcare insight pipeline that analyzes patient feedback and extracts intake data for ward-level operational visibility.
+
+*2 exercises · adapted from mslearn-ai-information-extraction, mslearn-ai-language · published 2026-08-12*
 
 ---
 
