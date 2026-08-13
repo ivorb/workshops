@@ -1,53 +1,6 @@
 {
   "workshops": [
     {
-      "slug": "workshop_mock_mode",
-      "title": "Workshop (mock mode)",
-      "customer": "Larkfield Retail",
-      "summary": "[mock mode] Generated without a Foundry endpoint.",
-      "description": "[mock mode] A workshop built around: Northwind Traders wants a resilient AI ordering desk for its wholesale customers, with agents that can look up stock and escalate.. Configure AZURE_FOUNDRY_ENDPOINT for real output.",
-      "scenario": "Northwind Traders wants a resilient AI ordering desk for its wholesale customers, with agents that can look up stock and escalate.",
-      "industry": "Wholesale distribution",
-      "audience": "Solution architects",
-      "created": "2026-08-13",
-      "path": "_workshop_mock_mode",
-      "first_page": "/workshop_mock_mode/00_introduction/",
-      "labs": [
-        {
-          "title": "Build AI agents with portal and VS Code",
-          "url": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/01-build-agent-portal-and-vscode.md",
-          "repo": null
-        },
-        {
-          "title": "Use a custom function in an AI agent",
-          "url": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/02-agent-custom-tools.md",
-          "repo": null
-        },
-        {
-          "title": "Extend agents with Model Context Protocol (MCP) tools",
-          "url": "https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/Exercises/03-mcp-integration.md",
-          "repo": null
-        }
-      ],
-      "exercises": [
-        {
-          "number": 1,
-          "title": "Exercise 01: Build AI agents with portal and VS Code",
-          "tasks": 3
-        },
-        {
-          "number": 2,
-          "title": "Exercise 02: Use a custom function in an AI agent",
-          "tasks": 3
-        },
-        {
-          "number": 3,
-          "title": "Exercise 03: Extend agents with Model Context Protocol (MCP) tools",
-          "tasks": 3
-        }
-      ]
-    },
-    {
       "slug": "contoso_health_ward_insights_from_feedback_and_f",
       "title": "Contoso Health: ward insights from feedback and forms",
       "summary": "Build a healthcare insight pipeline that analyzes patient feedback and extracts intake data for ward-level operational visibility.",
