@@ -12,6 +12,12 @@ Each workshop below is a self-contained, multi-exercise lab with its own custome
 
 ## Workshops
 
+### [Workshop (mock mode)]({{ site.baseurl }}/workshop_mock_mode/00_introduction/)
+
+[mock mode] Generated without a Foundry endpoint.
+
+*3 exercises · published 2026-08-13*
+
 ### [Contoso Health: ward insights from feedback and forms]({{ site.baseurl }}/contoso_health_ward_insights_from_feedback_and_f/00_introduction/)
 
 Build a healthcare insight pipeline that analyzes patient feedback and extracts intake data for ward-level operational visibility.

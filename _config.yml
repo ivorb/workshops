@@ -32,6 +32,9 @@ collections:
   contoso_health_ward_insights_from_feedback_and_f:
     permalink: /:collection/:path/
     output: true
+  workshop_mock_mode:
+    permalink: /:collection/:path/
+    output: true
 just_the_docs:
   collections:
     build_zava_s_omnichannel_ai_shopping_assistant:
@@ -39,4 +42,7 @@ just_the_docs:
       nav_fold: true
     contoso_health_ward_insights_from_feedback_and_f:
       name: 'Contoso Health: ward insights from feedback and forms'
+      nav_fold: true
+    workshop_mock_mode:
+      name: Workshop (mock mode)
       nav_fold: true
